@@ -55,7 +55,7 @@ function Rocket(dna){
       this.fitness*=20;
     }
     if(this.crashed){
-      this.fitness /= 10;
+      this.fitness /= 100;
     }
   }
 
