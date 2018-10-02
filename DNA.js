@@ -6,7 +6,7 @@ function DNA(genes){
   this.genes = [];
   for (var i = 0; i < lifespan; i++) {
     this.genes[i] = p5.Vector.random2D();
-    this.genes[i].setMag(0.35);
+    this.genes[i].setMag(.55);
 
   }
 }
@@ -28,7 +28,7 @@ function DNA(genes){
     for (var i = 0; i < this.genes.length; i++) {
       if(random(1)<0.01){
         this.genes[i] = p5.Vector.random2D();
-        this.genes[i].setMag(0.35);
+        this.genes[i].setMag(.55);
       }
     }
   }
